@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    font-size: 14px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: y mandatory;
+    overflow-y: scroll;
+}
+section{
+    scroll-snap-align: start;
+    width: 100%;
+    height: 100vh;
+}
+.header{
+    width: 100%;
+    position: absolute;
+}
+.fixed{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+.nav-bar-logo{
+    width: 200px;
+    margin-left: 65px;
+    margin-top: 14px;
+    float: left;
+}
+.nav-bar{
+    float: left;
+    width: 60%;
+    text-align: center;
+    height: 80px;
+    border-bottom: 2px solid #a5a6aa ;
+}
+.nav-list{
+    text-decoration: none;
+    width: 83%;
+    position: relative;
+    top: 27px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    cursor: pointer;
+    gap: 10px;
+    font-size: 17px;
+    left: 48px;
+}
+.nav-list>li>:hover{
+    color: black;
+}
+.head-list{
+    text-decoration: none;
+    color: #A6A8AB;
+    margin-left: 50px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.nav-arrow{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+.find-in{
+    float: left;
+    width: 20%;
+    position :relative;
+    top: 27px;
+    overflow: hidden;
+}
+.youtube{
+    border-radius: 50%;
+    background-color: #a5a6aa;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    float: left; 
+    margin-top: 14px;
+    margin-left: 108px;
+    cursor: pointer;
+    transition: 1s;
+}
+.youtube svg{
+    fill: white;
+    height: 30px;
+    width: 18px;
+    margin-left: 6px;
+}
+.instagram{
+    float: left;
+    border-radius: 50%;
+    background-color: #a5a6aa;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    margin-top: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 1s;
+}
+.instagram svg{
+    fill: white;
+    height: 30px;
+    width: 14px;
+    margin-left: 8px;
+}
+.youtube:hover{
+    background-color: blue;
+    transition: 1s;
+}
+.instagram:hover{
+    background-color: red;
+    transition: 1s;
+}
+.img-1{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+.img{
+    position: absolute;
+    top: 55px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.first-btn{
+    position: absolute;
+    left: 47%;
+    top: 60%;
+    overflow: hidden;
+}
+.first-btn-style{
+    border: 1px solid #A6A8AB;
+    padding: 8px 35px;
+    background-color: transparent;
+    height: 35px;
+    font-family: 'Helvetica';
+    font-size: 17px;
+    color: #58595b;
+    cursor: pointer;
+}
+.first-btn-style svg{
+    margin-left: 5px;
+    height: 10px;
+    width: 7px;
+}
+.arrow-down{
+    left: 48%;
+    top: 93%;
+    overflow: hidden;
+    position: absolute;
+}
+.arrow-down-btn{
+    border: transparent;
+    background-color: transparent;
+
+}
+.arrow-down-btn svg{
+    width: 30px;
+    height: 40px;
+    fill: red;
+    cursor: pointer;
+}
+.img-2{
+    overflow: hidden;
+    width: 100%;
+    height: 488px;
+    padding-top: 83px;
+}
+.set-img{
+    overflow: hidden;
+    width: 100%;
+    height: 95%;
+    align-items: center;
+}
+.second-btn{
+    position: absolute;
+    margin-left: 620px;
+    margin-top: -90px;
+    overflow: hidden;
+}
+.arrow-down-1{
+    margin-left: 650px;
+    margin-top: -50px;
+    overflow: hidden;
+    position: absolute;
+}
